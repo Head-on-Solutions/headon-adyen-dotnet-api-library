@@ -1,15 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
-using Adyen.ApiSerialization;
-using Adyen.Model.Checkout;
-using Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.ApiSerialization;
+using HeadOn.Classic.Adyen.Model.Checkout;
+using HeadOn.Classic.Adyen.Model.Nexo;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using PaymentResponse = Adyen.Model.Nexo.PaymentResponse;
+using PaymentResponse = HeadOn.Classic.Adyen.Model.Nexo.PaymentResponse;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class SerializerTest

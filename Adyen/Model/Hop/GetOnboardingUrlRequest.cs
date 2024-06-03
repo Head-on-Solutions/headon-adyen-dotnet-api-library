@@ -2,7 +2,7 @@
 using System.Text;
 using Newtonsoft.Json;
 
-namespace Adyen.Model.Hop
+namespace HeadOn.Classic.Adyen.Model.Hop
 {
     [DataContract]
     public class GetOnboardingUrlRequest

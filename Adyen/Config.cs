@@ -1,7 +1,7 @@
 using System.Net;
-using Adyen.Model;
+using HeadOn.Classic.Adyen.Model;
 
-namespace Adyen
+namespace HeadOn.Classic.Adyen
 {
     public class Config
     {

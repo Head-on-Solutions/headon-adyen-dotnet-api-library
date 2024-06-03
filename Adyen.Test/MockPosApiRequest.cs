@@ -1,8 +1,8 @@
 ﻿using System;
-using Adyen.Model.Nexo;
-using Adyen.Model.Nexo.Message;
+using HeadOn.Classic.Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Model.Nexo.Message;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     public class MockPosApiRequest
     {

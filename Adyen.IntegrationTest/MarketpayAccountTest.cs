@@ -1,4 +1,4 @@
-using Adyen.Model.MarketPay;
+using HeadOn.Classic.Adyen.Model.MarketPay;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System;
 using System.Collections.Generic;
@@ -6,7 +6,7 @@ using System.Text;
 using System.Threading;
 using Account = Adyen.Service.Account;
 
-namespace Adyen.IntegrationTest
+namespace HeadOn.Classic.Adyen.IntegrationTest
 {
     [TestClass]
     public class MarketpayAccountTest

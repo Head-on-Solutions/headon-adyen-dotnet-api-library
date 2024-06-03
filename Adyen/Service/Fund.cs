@@ -1,8 +1,8 @@
-﻿using Adyen.Model.MarketPay;
-using Adyen.Service.Resource.Fund;
+﻿using HeadOn.Classic.Adyen.Model.MarketPay;
+using HeadOn.Classic.Adyen.Service.Resource.Fund;
 using Newtonsoft.Json;
 
-namespace Adyen.Service
+namespace HeadOn.Classic.Adyen.Service
 {
     public class Fund : AbstractService
     {

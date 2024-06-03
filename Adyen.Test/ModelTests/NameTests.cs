@@ -1,8 +1,8 @@
 ﻿using System;
-using Adyen.Model.Checkout;
+using HeadOn.Classic.Adyen.Model.Checkout;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test.ModelTests
+namespace HeadOn.Classic.Adyen.Test.ModelTests
 {
     [TestClass]
     public class NameTests

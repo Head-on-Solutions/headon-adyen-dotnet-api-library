@@ -2,20 +2,20 @@ using System;
 using System.Collections.Generic;
 
 using System.Threading.Tasks;
-using Adyen.Model;
-using Adyen.Model.BinLookup;
-using Adyen.Model.Checkout;
-using Adyen.Model.Payment;
-using Adyen.Service;
-using Adyen.Service.Checkout;
-using Amount = Adyen.Model.Checkout;
-using PaymentRequest = Adyen.Model.Payment.PaymentRequest;
-using PaymentResult = Adyen.Model.Payment.PaymentResult;
-using Environment = Adyen.Model.Environment;
-using ExternalPlatform = Adyen.Model.ApplicationInformation.ExternalPlatform;
-using Recurring = Adyen.Model.Payment.Recurring;
+using HeadOn.Classic.Adyen.Model;
+using HeadOn.Classic.Adyen.Model.BinLookup;
+using HeadOn.Classic.Adyen.Model.Checkout;
+using HeadOn.Classic.Adyen.Model.Payment;
+using HeadOn.Classic.Adyen.Service;
+using HeadOn.Classic.Adyen.Service.Checkout;
+using Amount = HeadOn.Classic.Adyen.Model.Checkout;
+using PaymentRequest = HeadOn.Classic.Adyen.Model.Payment.PaymentRequest;
+using PaymentResult = HeadOn.Classic.Adyen.Model.Payment.PaymentResult;
+using Environment = HeadOn.Classic.Adyen.Model.Environment;
+using ExternalPlatform = HeadOn.Classic.Adyen.Model.ApplicationInformation.ExternalPlatform;
+using Recurring = HeadOn.Classic.Adyen.Model.Payment.Recurring;
 
-namespace Adyen.IntegrationTest
+namespace HeadOn.Classic.Adyen.IntegrationTest
 {
     public class BaseTest
     {

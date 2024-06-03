@@ -1,8 +1,8 @@
-﻿using Adyen.Model.MarketPay.Notification;
-using Adyen.Model.Notification;
-using Adyen.Util;
+﻿using HeadOn.Classic.Adyen.Model.MarketPay.Notification;
+using HeadOn.Classic.Adyen.Model.Notification;
+using HeadOn.Classic.Adyen.Util;
 
-namespace Adyen.Webhooks
+namespace HeadOn.Classic.Adyen.Webhooks
 {
     public class WebhookHandler
     {

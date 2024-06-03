@@ -7,7 +7,7 @@ using System.Text;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Adyen.Model.MarketPay
+namespace HeadOn.Classic.Adyen.Model.MarketPay
 {
     /// <summary>
     /// PerformVerificationRequest

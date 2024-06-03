@@ -1,6 +1,6 @@
-﻿using Adyen.Model.Nexo;
+﻿using HeadOn.Classic.Adyen.Model.Nexo;
 
-namespace Adyen.ApiSerialization
+namespace HeadOn.Classic.Adyen.ApiSerialization
 {
     internal class MessageHeaderSerializer
     {

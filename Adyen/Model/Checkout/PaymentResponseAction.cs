@@ -23,10 +23,10 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 using System.ComponentModel.DataAnnotations;
-using OpenAPIDateConverter = Adyen.ApiSerialization.OpenAPIDateConverter;
+using OpenAPIDateConverter = HeadOn.Classic.Adyen.ApiSerialization.OpenAPIDateConverter;
 using System.Reflection;
 
-namespace Adyen.Model.Checkout
+namespace HeadOn.Classic.Adyen.Model.Checkout
 {
     /// <summary>
     /// Action to be taken for completing the payment.

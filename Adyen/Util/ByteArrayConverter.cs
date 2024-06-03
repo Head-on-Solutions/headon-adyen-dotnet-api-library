@@ -2,7 +2,7 @@
 using System.Text;
 using Newtonsoft.Json;
 
-namespace Adyen.Util
+namespace HeadOn.Classic.Adyen.Util
 {
     internal class ByteArrayConverter : JsonConverter
     {

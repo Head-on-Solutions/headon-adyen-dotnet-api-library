@@ -6,19 +6,19 @@ using System.Net.Http;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
-using Adyen.Constants;
-using Adyen.HttpClient;
-using Adyen.HttpClient.Interfaces;
-using Adyen.Model;
-using Adyen.Model.Nexo;
-using Adyen.Model.Payment;
-using Adyen.Service;
+using HeadOn.Classic.Adyen.Constants;
+using HeadOn.Classic.Adyen.HttpClient;
+using HeadOn.Classic.Adyen.HttpClient.Interfaces;
+using HeadOn.Classic.Adyen.Model;
+using HeadOn.Classic.Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Model.Payment;
+using HeadOn.Classic.Adyen.Service;
 using Moq;
-using Amount = Adyen.Model.Checkout;
+using Amount = HeadOn.Classic.Adyen.Model.Checkout;
 using Environment = System.Environment;
-using PaymentResult = Adyen.Model.Payment.PaymentResult;
+using PaymentResult = HeadOn.Classic.Adyen.Model.Payment.PaymentResult;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     public class BaseTest
     {

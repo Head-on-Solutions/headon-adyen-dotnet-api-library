@@ -23,10 +23,10 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 using System.ComponentModel.DataAnnotations;
-using OpenAPIDateConverter = Adyen.ApiSerialization.OpenAPIDateConverter;
+using OpenAPIDateConverter = HeadOn.Classic.Adyen.ApiSerialization.OpenAPIDateConverter;
 using System.Reflection;
 
-namespace Adyen.Model.Management
+namespace HeadOn.Classic.Adyen.Model.Management
 {
     /// <summary>
     /// Information about the action to take.

@@ -1,4 +1,4 @@
-﻿namespace Adyen.Security.Extension
+﻿namespace HeadOn.Classic.Adyen.Security.Extension
 {
     internal static class ArrayExtension
     {

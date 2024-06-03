@@ -2,10 +2,10 @@ using System;
 using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
-using Adyen.Util;
+using HeadOn.Classic.Adyen.Util;
 using Newtonsoft.Json;
 
-namespace Adyen.Model.MarketPay.Notification
+namespace HeadOn.Classic.Adyen.Model.MarketPay.Notification
 {
     /// <summary>
     /// 

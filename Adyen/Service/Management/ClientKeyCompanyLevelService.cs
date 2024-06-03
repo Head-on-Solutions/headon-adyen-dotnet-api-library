@@ -15,12 +15,12 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Adyen.Constants;
-using Adyen.Model;
-using Adyen.Service.Resource;
-using Adyen.Model.Management;
+using HeadOn.Classic.Adyen.Constants;
+using HeadOn.Classic.Adyen.Model;
+using HeadOn.Classic.Adyen.Service.Resource;
+using HeadOn.Classic.Adyen.Model.Management;
 
-namespace Adyen.Service.Management
+namespace HeadOn.Classic.Adyen.Service.Management
 {
     /// <summary>
     /// ClientKeyCompanyLevelService Interface

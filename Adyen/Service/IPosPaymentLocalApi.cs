@@ -1,10 +1,10 @@
 using System.Net.Security;
 using System.Threading;
 using System.Threading.Tasks;
-using Adyen.Model.Nexo;
-using Adyen.Security;
+using HeadOn.Classic.Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Security;
 
-namespace Adyen.Service
+namespace HeadOn.Classic.Adyen.Service
 {
     public interface IPosPaymentLocalApi
     {

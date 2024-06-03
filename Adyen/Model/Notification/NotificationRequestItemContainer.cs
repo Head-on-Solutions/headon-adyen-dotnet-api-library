@@ -21,10 +21,10 @@
 //  */
 #endregion
 
-using Adyen.Util;
+using HeadOn.Classic.Adyen.Util;
 using System.Text;
 
-namespace Adyen.Model.Notification
+namespace HeadOn.Classic.Adyen.Model.Notification
 {
     using Newtonsoft.Json;
 

@@ -1,8 +1,8 @@
 ﻿using System.Security.Cryptography;
 using System.Text;
-using Adyen.Security.Extension;
+using HeadOn.Classic.Adyen.Security.Extension;
 
-namespace Adyen.Security
+namespace HeadOn.Classic.Adyen.Security
 {
     internal class EncryptionDerivedKeyGenerator
     {

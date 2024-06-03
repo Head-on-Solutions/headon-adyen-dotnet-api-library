@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Adyen.Exceptions
+namespace HeadOn.Classic.Adyen.Exceptions
 {
     public class DeserializationException : Exception
     {

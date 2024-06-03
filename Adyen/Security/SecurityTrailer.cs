@@ -2,7 +2,7 @@
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Adyen.Security
+namespace HeadOn.Classic.Adyen.Security
 {
     ///<usage>
     ///It contains information related to the security of the message

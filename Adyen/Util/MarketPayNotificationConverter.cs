@@ -1,9 +1,9 @@
 ﻿using System;
-using Adyen.Model.MarketPay.Notification;
+using HeadOn.Classic.Adyen.Model.MarketPay.Notification;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
 
-namespace Adyen.Util
+namespace HeadOn.Classic.Adyen.Util
 {
     internal class MarketPayNotificationConverter : JsonConverter
     {

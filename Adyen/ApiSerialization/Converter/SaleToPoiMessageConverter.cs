@@ -1,8 +1,8 @@
 ﻿using System;
-using Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Model.Nexo;
 using Newtonsoft.Json;
 
-namespace Adyen.ApiSerialization.Converter
+namespace HeadOn.Classic.Adyen.ApiSerialization.Converter
 {
     internal class SaleToPoiMessageConverter : JsonConverter
     {

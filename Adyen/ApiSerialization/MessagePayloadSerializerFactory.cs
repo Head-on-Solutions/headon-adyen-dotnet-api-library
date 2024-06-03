@@ -1,7 +1,7 @@
 ﻿using System;
-using Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Model.Nexo;
 
-namespace Adyen.ApiSerialization
+namespace HeadOn.Classic.Adyen.ApiSerialization
 {
     internal class MessagePayloadSerializerFactory
     {

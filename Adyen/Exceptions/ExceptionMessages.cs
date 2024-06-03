@@ -1,4 +1,4 @@
-﻿namespace Adyen.Exceptions
+﻿namespace HeadOn.Classic.Adyen.Exceptions
 {
     internal class ExceptionMessages
     {

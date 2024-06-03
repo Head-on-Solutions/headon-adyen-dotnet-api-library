@@ -23,9 +23,9 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 using System.ComponentModel.DataAnnotations;
-using OpenAPIDateConverter = Adyen.ApiSerialization.OpenAPIDateConverter;
+using OpenAPIDateConverter = HeadOn.Classic.Adyen.ApiSerialization.OpenAPIDateConverter;
 
-namespace Adyen.Model.Checkout
+namespace HeadOn.Classic.Adyen.Model.Checkout
 {
     /// <summary>
     /// PaymentRefundResource
@@ -116,7 +116,7 @@ namespace Adyen.Model.Checkout
         /// <param name="paymentPspReference">The [&#x60;pspReference&#x60;](https://docs.adyen.com/api-explorer/#/CheckoutService/latest/post/payments__resParam_pspReference) of the payment to refund.  (required).</param>
         /// <param name="pspReference">Adyen&#39;s 16-character reference associated with the refund request. (required).</param>
         /// <param name="reference">Your reference for the refund request..</param>
-        /// <param name="splits">An array of objects specifying how the amount should be split between accounts when using Adyen for Platforms. For details, refer to [Providing split information](https://docs.adyen.com/marketplaces-and-platforms/processing-payments#providing-split-information)..</param>
+        /// <param name="splits">An array of objects specifying how the amount should be split between accounts when using HeadOn.Classic.Adyen for Platforms. For details, refer to [Providing split information](https://docs.adyen.com/marketplaces-and-platforms/processing-payments#providing-split-information)..</param>
         /// <param name="status">The status of your request. This will always have the value **received**. (required).</param>
         public PaymentRefundResource(Amount amount = default(Amount), List<LineItem> lineItems = default(List<LineItem>), string merchantAccount = default(string), MerchantRefundReasonEnum? merchantRefundReason = default(MerchantRefundReasonEnum?), string paymentPspReference = default(string), string pspReference = default(string), string reference = default(string), List<Split> splits = default(List<Split>), StatusEnum status = default(StatusEnum))
         {
@@ -173,9 +173,9 @@ namespace Adyen.Model.Checkout
         public string Reference { get; set; }
 
         /// <summary>
-        /// An array of objects specifying how the amount should be split between accounts when using Adyen for Platforms. For details, refer to [Providing split information](https://docs.adyen.com/marketplaces-and-platforms/processing-payments#providing-split-information).
+        /// An array of objects specifying how the amount should be split between accounts when using HeadOn.Classic.Adyen for Platforms. For details, refer to [Providing split information](https://docs.adyen.com/marketplaces-and-platforms/processing-payments#providing-split-information).
         /// </summary>
-        /// <value>An array of objects specifying how the amount should be split between accounts when using Adyen for Platforms. For details, refer to [Providing split information](https://docs.adyen.com/marketplaces-and-platforms/processing-payments#providing-split-information).</value>
+        /// <value>An array of objects specifying how the amount should be split between accounts when using HeadOn.Classic.Adyen for Platforms. For details, refer to [Providing split information](https://docs.adyen.com/marketplaces-and-platforms/processing-payments#providing-split-information).</value>
         [DataMember(Name = "splits", EmitDefaultValue = false)]
         public List<Split> Splits { get; set; }
 

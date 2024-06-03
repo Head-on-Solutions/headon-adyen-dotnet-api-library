@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Adyen.Util
+namespace HeadOn.Classic.Adyen.Util
 {
     public  class Util
     {

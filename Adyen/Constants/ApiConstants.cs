@@ -1,4 +1,4 @@
-﻿namespace Adyen.Constants
+﻿namespace HeadOn.Classic.Adyen.Constants
 {
     public class ApiConstants
     {

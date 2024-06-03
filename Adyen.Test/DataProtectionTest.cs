@@ -1,8 +1,8 @@
-using Adyen.Model.DataProtection;
-using Adyen.Service;
+using HeadOn.Classic.Adyen.Model.DataProtection;
+using HeadOn.Classic.Adyen.Service;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class DataProtectionTest : BaseTest

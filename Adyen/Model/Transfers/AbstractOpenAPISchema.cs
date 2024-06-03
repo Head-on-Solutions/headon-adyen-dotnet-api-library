@@ -14,7 +14,7 @@ using System;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Adyen.Model.Transfers
+namespace HeadOn.Classic.Adyen.Model.Transfers
 {
     /// <summary>
     ///  Abstract base class for oneOf, anyOf schemas in the OpenAPI specification

@@ -21,7 +21,7 @@
 //  */
 #endregion
 
-namespace Adyen.Model.Notification
+namespace HeadOn.Classic.Adyen.Model.Notification
 {
     public class NotificationRequestConst
     {

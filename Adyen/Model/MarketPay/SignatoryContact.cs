@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 using System.Text;
 
-namespace Adyen.Model.MarketPay
+namespace HeadOn.Classic.Adyen.Model.MarketPay
 {
     /// <summary>
     /// SignatoryContact

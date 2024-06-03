@@ -1,13 +1,13 @@
 ﻿using System.Collections.Generic;
 using System.Text;
-using Adyen.Model.MarketPay;
-using Adyen.Model.Notification;
-using Adyen.Model.Payment;
-using Adyen.Util;
+using HeadOn.Classic.Adyen.Model.MarketPay;
+using HeadOn.Classic.Adyen.Model.Notification;
+using HeadOn.Classic.Adyen.Model.Payment;
+using HeadOn.Classic.Adyen.Util;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class UtilTest : BaseTest

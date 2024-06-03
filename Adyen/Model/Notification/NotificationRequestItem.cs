@@ -22,9 +22,9 @@
 #endregion
 
 using System.Collections.Generic;
-using Adyen.Model.Checkout;
+using HeadOn.Classic.Adyen.Model.Checkout;
 
-namespace Adyen.Model.Notification
+namespace HeadOn.Classic.Adyen.Model.Notification
 {
     public class NotificationRequestItem
     {

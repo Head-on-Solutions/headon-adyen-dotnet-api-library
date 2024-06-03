@@ -23,10 +23,10 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 using System.ComponentModel.DataAnnotations;
-using OpenAPIDateConverter = Adyen.ApiSerialization.OpenAPIDateConverter;
+using OpenAPIDateConverter = HeadOn.Classic.Adyen.ApiSerialization.OpenAPIDateConverter;
 using System.Reflection;
 
-namespace Adyen.Model.BalancePlatform
+namespace HeadOn.Classic.Adyen.Model.BalancePlatform
 {
     /// <summary>
     /// The schedule when the &#x60;triggerAmount&#x60; is evaluated. If the balance meets the threshold, funds are pushed out of or pulled in to the balance account.

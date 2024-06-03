@@ -2,7 +2,7 @@
 using System.Linq;
 using System.Text;
 
-namespace Adyen.Util
+namespace HeadOn.Classic.Adyen.Util
 {
     internal static class Extensions
     {

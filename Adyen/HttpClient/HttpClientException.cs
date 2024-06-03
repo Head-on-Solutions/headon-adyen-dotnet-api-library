@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Net;
 
-namespace Adyen.HttpClient
+namespace HeadOn.Classic.Adyen.HttpClient
 {
     public class HttpClientException : Exception
     {

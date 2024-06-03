@@ -5,7 +5,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace Adyen.Model.ApplicationInformation
+namespace HeadOn.Classic.Adyen.Model.ApplicationInformation
 {
     /// <summary>
     /// ShopperInteractionDevice

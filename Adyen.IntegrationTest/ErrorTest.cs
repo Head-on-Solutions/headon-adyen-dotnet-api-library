@@ -1,18 +1,18 @@
 using System;
 using System.Net.Http;
-using Adyen.HttpClient;
-using Adyen.Model.Checkout;
-using Adyen.Service;
-using Adyen.Service.Checkout;
+using HeadOn.Classic.Adyen.HttpClient;
+using HeadOn.Classic.Adyen.Model.Checkout;
+using HeadOn.Classic.Adyen.Service;
+using HeadOn.Classic.Adyen.Service.Checkout;
 
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Amount = Adyen.Model.Payment.Amount;
-using Card = Adyen.Model.Payment.Card;
-using Environment = Adyen.Model.Environment;
-using PaymentRequest = Adyen.Model.Payment.PaymentRequest;
-using Recurring = Adyen.Model.Payment.Recurring;
+using Amount = HeadOn.Classic.Adyen.Model.Payment.Amount;
+using Card = HeadOn.Classic.Adyen.Model.Payment.Card;
+using Environment = HeadOn.Classic.Adyen.Model.Environment;
+using PaymentRequest = HeadOn.Classic.Adyen.Model.Payment.PaymentRequest;
+using Recurring = HeadOn.Classic.Adyen.Model.Payment.Recurring;
 
-namespace Adyen.IntegrationTest
+namespace HeadOn.Classic.Adyen.IntegrationTest
 {
     [TestClass]
     public class ErrorTest : BaseTest

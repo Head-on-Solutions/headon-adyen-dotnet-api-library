@@ -1,6 +1,6 @@
-﻿using Adyen.Constants;
+﻿using HeadOn.Classic.Adyen.Constants;
 
-namespace Adyen.Service.Resource.Hop
+namespace HeadOn.Classic.Adyen.Service.Resource.Hop
 {
     public class GetOnboardingUrl : ServiceResource
     {

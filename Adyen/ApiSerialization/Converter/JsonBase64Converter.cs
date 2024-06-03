@@ -1,7 +1,7 @@
 ﻿using System;
 using Newtonsoft.Json;
 
-namespace Adyen.ApiSerialization.Converter
+namespace HeadOn.Classic.Adyen.ApiSerialization.Converter
 {
     internal class JsonBase64Converter : JsonConverter
     {

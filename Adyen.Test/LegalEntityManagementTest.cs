@@ -2,12 +2,12 @@ using System;
 using System.Collections.Generic;
 using System.Net.Http;
 using System.Text;
-using Adyen.Model.LegalEntityManagement;
-using Adyen.Service.LegalEntityManagement;
+using HeadOn.Classic.Adyen.Model.LegalEntityManagement;
+using HeadOn.Classic.Adyen.Service.LegalEntityManagement;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class LegalEntityManagementTest : BaseTest

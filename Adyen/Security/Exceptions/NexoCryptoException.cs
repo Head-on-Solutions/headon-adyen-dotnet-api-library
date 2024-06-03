@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Adyen.Security.Exceptions
+namespace HeadOn.Classic.Adyen.Security.Exceptions
 {
     public class NexoCryptoException : Exception
     {

@@ -1,6 +1,6 @@
-﻿using Adyen.Constants;
+﻿using HeadOn.Classic.Adyen.Constants;
 
-namespace Adyen.Service.Resource.Account
+namespace HeadOn.Classic.Adyen.Service.Resource.Account
 {
     public class GetAccountHolder : Resource
     {

@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Web;
-using Adyen.Constants;
-using Adyen.HttpClient.Interfaces;
-using Adyen.Model;
+using HeadOn.Classic.Adyen.Constants;
+using HeadOn.Classic.Adyen.HttpClient.Interfaces;
+using HeadOn.Classic.Adyen.Model;
 
-namespace Adyen.HttpClient
+namespace HeadOn.Classic.Adyen.HttpClient
 {
     public class HttpClientWrapper : IClient
     {

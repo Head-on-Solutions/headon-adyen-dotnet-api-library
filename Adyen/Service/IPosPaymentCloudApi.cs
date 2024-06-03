@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Model.Nexo;
 
-namespace Adyen.Service
+namespace HeadOn.Classic.Adyen.Service
 {
     public interface IPosPaymentCloudApi
     {

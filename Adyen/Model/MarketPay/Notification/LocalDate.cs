@@ -2,7 +2,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace Adyen.Model.MarketPay.Notification
+namespace HeadOn.Classic.Adyen.Model.MarketPay.Notification
 {
     /// <summary>
     /// 

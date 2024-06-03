@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Adyen.Model.PosTerminalManagement;
-using Adyen.Service;
+using HeadOn.Classic.Adyen.Model.PosTerminalManagement;
+using HeadOn.Classic.Adyen.Service;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class PosTerminalManagementTest : BaseTest

@@ -2,13 +2,13 @@ using System;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Adyen.HttpClient;
-using Adyen.HttpClient.Interfaces;
-using Adyen.Model;
-using Adyen.Service.Checkout;
+using HeadOn.Classic.Adyen.HttpClient;
+using HeadOn.Classic.Adyen.HttpClient.Interfaces;
+using HeadOn.Classic.Adyen.Model;
+using HeadOn.Classic.Adyen.Service.Checkout;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.IntegrationTest
+namespace HeadOn.Classic.Adyen.IntegrationTest
 {
     [TestClass]
     public class CancellationTokenTest : BaseTest

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Collections.Generic;
-using Adyen.Constants;
-using Adyen.Model.ApplicationInformation;
-using Adyen.Model.Terminal;
+using HeadOn.Classic.Adyen.Constants;
+using HeadOn.Classic.Adyen.Model.ApplicationInformation;
+using HeadOn.Classic.Adyen.Model.Terminal;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class SaleToAcquirerDataTest

@@ -1,9 +1,9 @@
-﻿using Adyen.Model.MarketPay;
-using Adyen.Model.MarketPay.Notification;
-using Adyen.Webhooks;
+﻿using HeadOn.Classic.Adyen.Model.MarketPay;
+using HeadOn.Classic.Adyen.Model.MarketPay.Notification;
+using HeadOn.Classic.Adyen.Webhooks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test.MarketPayTest
+namespace HeadOn.Classic.Adyen.Test.MarketPayTest
 {
     [TestClass]
     public class MarketPayNotificationTest : BaseTest

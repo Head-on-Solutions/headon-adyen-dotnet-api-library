@@ -1,14 +1,14 @@
 using System;
-using Adyen.Model.Payment;
-using Adyen.Service;
+using HeadOn.Classic.Adyen.Model.Payment;
+using HeadOn.Classic.Adyen.Service;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Collections.Generic;
 using System.Threading.Tasks;
-using Adyen.HttpClient;
-using Adyen.Model.StoredValue;
-using Environment = Adyen.Model.Environment;
+using HeadOn.Classic.Adyen.HttpClient;
+using HeadOn.Classic.Adyen.Model.StoredValue;
+using Environment = HeadOn.Classic.Adyen.Model.Environment;
 
-namespace Adyen.IntegrationTest
+namespace HeadOn.Classic.Adyen.IntegrationTest
 {
     [TestClass]
     public class PaymentTest : BaseTest

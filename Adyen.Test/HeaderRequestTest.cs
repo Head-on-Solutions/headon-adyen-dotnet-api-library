@@ -1,11 +1,11 @@
 ﻿using System.Linq;
 using System.Net.Http;
-using Adyen.Constants;
-using Adyen.HttpClient;
-using Adyen.Model;
+using HeadOn.Classic.Adyen.Constants;
+using HeadOn.Classic.Adyen.HttpClient;
+using HeadOn.Classic.Adyen.Model;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class HeaderRequestTest

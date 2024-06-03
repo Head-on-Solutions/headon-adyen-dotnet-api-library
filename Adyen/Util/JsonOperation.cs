@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace Adyen.Util
+namespace HeadOn.Classic.Adyen.Util
 {
     public class JsonOperation
     {

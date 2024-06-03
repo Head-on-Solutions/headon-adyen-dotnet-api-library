@@ -1,6 +1,6 @@
 ﻿using System.ComponentModel.DataAnnotations;
 
-namespace Adyen.Security
+namespace HeadOn.Classic.Adyen.Security
 {
     public class EncryptionCredentialDetails
     {

@@ -2,7 +2,7 @@
 # Adyen .NET API Library
 [![nuget](https://img.shields.io/nuget/v/adyen.svg)](https://www.nuget.org/packages/adyen/) [![nuget](https://img.shields.io/nuget/dt/adyen.svg)](https://www.nuget.org/packages/adyen/) ![.NET Core](https://github.com/Adyen/adyen-dotnet-api-library/workflows/.NET%20Core/badge.svg)
 
-This is the officially supported .NET library for using Adyen's APIs.
+This is the officially supported .NET library for using HeadOn.Classic.Adyen's APIs.
 ## Supported API versions
 The library supports all APIs under the following services:
 
@@ -46,10 +46,10 @@ In order to submit http request to Adyen API you need to initialize the client. 
 ```c#
 
 // Create a paymentsRequest
-using Adyen;
-using Adyen.Model.Checkout;
-using Adyen.Service.Checkout;
-using Environment = Adyen.Model.Environment;
+using HeadOn.Classic.Adyen;
+using HeadOn.Classic.Adyen.Model.Checkout;
+using HeadOn.Classic.Adyen.Service.Checkout;
+using Environment = HeadOn.Classic.Adyen.Model.Environment;
 
 // Create a paymentsRequest
 var amount = new Amount("USD", 1000);
@@ -90,8 +90,8 @@ In order to submit POS request with Cloud Terminal API you need to initialize th
 For more information please read our [documentation](https://docs.adyen.com/point-of-sale/terminal-api-fundamentals#cloud)
 ```c#
 //Example for EU based Endpoint Syncronous
-using Adyen;
-using Adyen.Constants;
+using HeadOn.Classic.Adyen;
+using HeadOn.Classic.Adyen.Constants;
 
 var config = new Config
   {
@@ -111,12 +111,12 @@ var saleToPoiRequest = serializer.DeserializeNotification(your_terminal_notifica
 ## Example Cloud Terminal API integration
 ```c#
 using System;
-using Adyen.Model.Nexo;
-using Adyen.Model.Nexo.Message;
-using Adyen.Service;
-using Environment = Adyen.Model.Environment;
+using HeadOn.Classic.Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Model.Nexo.Message;
+using HeadOn.Classic.Adyen.Service;
+using Environment = HeadOn.Classic.Adyen.Model.Environment;
  
-namespace Adyen.Terminal
+namespace HeadOn.Classic.Adyen.Terminal
 {
    public static class Program
    {

@@ -2,12 +2,12 @@
 using System.Net.Security;
 using System.Threading;
 using System.Threading.Tasks;
-using Adyen.ApiSerialization;
-using Adyen.Model.Nexo;
-using Adyen.Security;
-using Adyen.Service.Resource.Terminal;
+using HeadOn.Classic.Adyen.ApiSerialization;
+using HeadOn.Classic.Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Security;
+using HeadOn.Classic.Adyen.Service.Resource.Terminal;
 
-namespace Adyen.Service
+namespace HeadOn.Classic.Adyen.Service
 {
    public class PosPaymentLocalApi: AbstractService, IPosPaymentLocalApi
     {

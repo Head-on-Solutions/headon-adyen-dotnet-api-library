@@ -6,7 +6,7 @@ using System.Runtime.Serialization;
 using System.Text;
 using Newtonsoft.Json;
 
-namespace Adyen.Model.MarketPay
+namespace HeadOn.Classic.Adyen.Model.MarketPay
 {
     /// <summary>
     /// PayoutAccountHolderRequest

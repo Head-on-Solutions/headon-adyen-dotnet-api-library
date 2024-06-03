@@ -2,12 +2,12 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Adyen.Model.Management;
-using Adyen.Service.Management;
+using HeadOn.Classic.Adyen.Model.Management;
+using HeadOn.Classic.Adyen.Service.Management;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Moq;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class ManagementTest : BaseTest

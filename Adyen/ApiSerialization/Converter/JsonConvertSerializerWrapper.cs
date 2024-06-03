@@ -1,9 +1,9 @@
-﻿using Adyen.Model.Nexo;
-using Adyen.Security;
+﻿using HeadOn.Classic.Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Security;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 
-namespace Adyen.ApiSerialization.Converter
+namespace HeadOn.Classic.Adyen.ApiSerialization.Converter
 {
     internal class JsonConvertSerializerWrapper
     {

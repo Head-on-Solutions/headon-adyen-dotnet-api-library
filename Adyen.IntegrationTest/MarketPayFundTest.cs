@@ -1,8 +1,8 @@
-using Adyen.Model.MarketPay;
-using Adyen.Service;
+using HeadOn.Classic.Adyen.Model.MarketPay;
+using HeadOn.Classic.Adyen.Service;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.IntegrationTest
+namespace HeadOn.Classic.Adyen.IntegrationTest
 {
     [TestClass]
     public class MarketPayFundTest : BaseTest

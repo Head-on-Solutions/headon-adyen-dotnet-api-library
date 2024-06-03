@@ -25,7 +25,7 @@ using Newtonsoft.Json;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Adyen.Model.Notification
+namespace HeadOn.Classic.Adyen.Model.Notification
 {
     public class NotificationRequest
     {

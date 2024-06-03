@@ -1,7 +1,7 @@
 ﻿using System;
-using Adyen.Model;
+using HeadOn.Classic.Adyen.Model;
 
-namespace Adyen.Service
+namespace HeadOn.Classic.Adyen.Service
 {
     public class ApiException:Exception
     {

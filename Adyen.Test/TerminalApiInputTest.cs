@@ -1,9 +1,9 @@
 ﻿using System;
-using Adyen.Model.Nexo;
-using Adyen.Service;
+using HeadOn.Classic.Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Service;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class TerminalApiInputTest : BaseTest

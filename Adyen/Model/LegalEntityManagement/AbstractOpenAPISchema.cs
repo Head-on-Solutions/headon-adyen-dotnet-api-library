@@ -14,7 +14,7 @@ using System;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Adyen.Model.LegalEntityManagement
+namespace HeadOn.Classic.Adyen.Model.LegalEntityManagement
 {
     /// <summary>
     ///  Abstract base class for oneOf, anyOf schemas in the OpenAPI specification

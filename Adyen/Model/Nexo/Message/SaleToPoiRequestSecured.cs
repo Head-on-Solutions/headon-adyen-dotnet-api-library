@@ -1,6 +1,6 @@
-﻿using Adyen.Security;
+﻿using HeadOn.Classic.Adyen.Security;
 
-namespace Adyen.Model.Nexo.Message
+namespace HeadOn.Classic.Adyen.Model.Nexo.Message
 {
     internal class SaleToPoiRequestSecured : SaleToPoiMessageSecured
     {

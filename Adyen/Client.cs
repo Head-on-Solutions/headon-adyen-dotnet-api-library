@@ -1,12 +1,12 @@
 ﻿using System;
 using System.Net.Http;
-using Adyen.Constants;
-using Adyen.Exceptions;
-using Adyen.HttpClient;
-using Adyen.HttpClient.Interfaces;
-using Environment = Adyen.Model.Environment;
+using HeadOn.Classic.Adyen.Constants;
+using HeadOn.Classic.Adyen.Exceptions;
+using HeadOn.Classic.Adyen.HttpClient;
+using HeadOn.Classic.Adyen.HttpClient.Interfaces;
+using Environment = HeadOn.Classic.Adyen.Model.Environment;
 
-namespace Adyen
+namespace HeadOn.Classic.Adyen
 {
     public class Client
     {

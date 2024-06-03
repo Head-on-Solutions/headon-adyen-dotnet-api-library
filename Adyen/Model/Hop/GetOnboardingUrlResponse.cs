@@ -1,11 +1,11 @@
 ﻿using System.Collections.Generic;
 using System.Runtime.Serialization;
 using System.Text;
-using Adyen.Model.MarketPay;
-using Adyen.Util;
+using HeadOn.Classic.Adyen.Model.MarketPay;
+using HeadOn.Classic.Adyen.Util;
 using Newtonsoft.Json;
 
-namespace Adyen.Model.Hop
+namespace HeadOn.Classic.Adyen.Model.Hop
 {
     [DataContract]
     public class GetOnboardingUrlResponse

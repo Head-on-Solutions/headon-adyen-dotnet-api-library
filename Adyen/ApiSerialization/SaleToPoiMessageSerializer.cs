@@ -1,10 +1,10 @@
 ﻿using System;
-using Adyen.Model.Nexo;
-using Adyen.Model.Nexo.Message;
-using Adyen.Security;
+using HeadOn.Classic.Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Model.Nexo.Message;
+using HeadOn.Classic.Adyen.Security;
 using Newtonsoft.Json.Linq;
 
-namespace Adyen.ApiSerialization
+namespace HeadOn.Classic.Adyen.ApiSerialization
 {
     public class SaleToPoiMessageSerializer
     {

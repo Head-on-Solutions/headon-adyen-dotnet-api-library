@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Runtime.Serialization;
 using System.Text;
-using Adyen.Constants;
+using HeadOn.Classic.Adyen.Constants;
 using Newtonsoft.Json;
 
-namespace Adyen.Model.ApplicationInformation
+namespace HeadOn.Classic.Adyen.Model.ApplicationInformation
 {
     /// <summary>
     /// ApplicationInfo

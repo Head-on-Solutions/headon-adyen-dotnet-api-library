@@ -3,21 +3,21 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Adyen.HttpClient.Interfaces;
-using Adyen.Model;
-using Adyen.Model.Checkout;
-using Adyen.Service;
-using Adyen.Service.Checkout;
+using HeadOn.Classic.Adyen.HttpClient.Interfaces;
+using HeadOn.Classic.Adyen.Model;
+using HeadOn.Classic.Adyen.Model.Checkout;
+using HeadOn.Classic.Adyen.Service;
+using HeadOn.Classic.Adyen.Service.Checkout;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Linq;
-using static Adyen.Model.Checkout.PaymentResponse;
-using ApplicationInfo = Adyen.Model.ApplicationInformation.ApplicationInfo;
-using Environment = Adyen.Model.Environment;
-using IRecurringService = Adyen.Service.Checkout.IRecurringService;
-using RecurringService = Adyen.Service.Checkout.RecurringService;
+using static HeadOn.Classic.Adyen.Model.Checkout.PaymentResponse;
+using ApplicationInfo = HeadOn.Classic.Adyen.Model.ApplicationInformation.ApplicationInfo;
+using Environment = HeadOn.Classic.Adyen.Model.Environment;
+using IRecurringService = HeadOn.Classic.Adyen.Service.Checkout.IRecurringService;
+using RecurringService = HeadOn.Classic.Adyen.Service.Checkout.RecurringService;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class CheckoutTest : BaseTest

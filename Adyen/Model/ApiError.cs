@@ -21,13 +21,13 @@
 //  */
 #endregion
 
-using Adyen.Model.Recurring;
+using HeadOn.Classic.Adyen.Model.Recurring;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
-namespace Adyen.Model
+namespace HeadOn.Classic.Adyen.Model
 {
     public class ApiError : IEquatable<ApiError>, IValidatableObject
     {

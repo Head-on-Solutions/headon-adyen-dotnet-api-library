@@ -1,9 +1,9 @@
 using System.Net.Http;
 using System.Net.Security;
 using System.Security.Cryptography.X509Certificates;
-using Adyen.Security;
+using HeadOn.Classic.Adyen.Security;
 
-namespace Adyen.HttpClient
+namespace HeadOn.Classic.Adyen.HttpClient
 {
     public static class HttpClientExtensions
     {

@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections.Generic;
-using Adyen.Constants;
-using Adyen.Model.Payment;
-using Environment = Adyen.Model.Environment;
+using HeadOn.Classic.Adyen.Constants;
+using HeadOn.Classic.Adyen.Model.Payment;
+using Environment = HeadOn.Classic.Adyen.Model.Environment;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     internal class MockPaymentData
     {

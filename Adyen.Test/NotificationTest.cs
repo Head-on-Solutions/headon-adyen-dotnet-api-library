@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Linq;
-using Adyen.ApiSerialization;
-using Adyen.Model.Nexo;
-using Adyen.Webhooks;
+using HeadOn.Classic.Adyen.ApiSerialization;
+using HeadOn.Classic.Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Webhooks;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class NotificationTest : BaseTest

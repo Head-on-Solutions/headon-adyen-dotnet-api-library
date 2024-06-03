@@ -1,8 +1,8 @@
 ﻿using System;
 using System.Collections.Generic;
-using Adyen.Model.Payment;
+using HeadOn.Classic.Adyen.Model.Payment;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     public class MockOpenInvoicePayment
     {

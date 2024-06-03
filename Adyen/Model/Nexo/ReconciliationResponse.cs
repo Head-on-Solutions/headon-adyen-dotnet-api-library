@@ -1,6 +1,6 @@
-﻿using Adyen.ApiSerialization;
+﻿using HeadOn.Classic.Adyen.ApiSerialization;
 
-namespace Adyen.Model.Nexo
+namespace HeadOn.Classic.Adyen.Model.Nexo
 {
     /// <remarks/>
     [System.CodeDom.Compiler.GeneratedCodeAttribute("xsd", "4.6.1055.0")]

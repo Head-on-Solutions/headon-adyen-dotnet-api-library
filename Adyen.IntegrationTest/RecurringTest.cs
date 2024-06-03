@@ -1,11 +1,11 @@
 using System;
 using System.Collections.Generic;
-using Adyen.Model.Recurring;
+using HeadOn.Classic.Adyen.Model.Recurring;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using System.Linq;
-using static Adyen.Model.Recurring.Recurring;
+using static HeadOn.Classic.Adyen.Model.Recurring.Recurring;
 
-namespace Adyen.IntegrationTest
+namespace HeadOn.Classic.Adyen.IntegrationTest
 {
     [TestClass]
     public class RecurringTest : BaseTest

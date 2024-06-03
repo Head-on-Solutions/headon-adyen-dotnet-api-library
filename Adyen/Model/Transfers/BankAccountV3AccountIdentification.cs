@@ -23,10 +23,10 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 using System.ComponentModel.DataAnnotations;
-using OpenAPIDateConverter = Adyen.ApiSerialization.OpenAPIDateConverter;
+using OpenAPIDateConverter = HeadOn.Classic.Adyen.ApiSerialization.OpenAPIDateConverter;
 using System.Reflection;
 
-namespace Adyen.Model.Transfers
+namespace HeadOn.Classic.Adyen.Model.Transfers
 {
     /// <summary>
     /// Contains the bank account details. The fields required in this object depend on the country of the bank account and the currency of the transfer.

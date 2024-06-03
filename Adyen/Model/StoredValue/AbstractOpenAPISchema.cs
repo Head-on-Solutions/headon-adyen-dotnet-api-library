@@ -14,7 +14,7 @@ using System;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Adyen.Model.StoredValue
+namespace HeadOn.Classic.Adyen.Model.StoredValue
 {
     /// <summary>
     ///  Abstract base class for oneOf, anyOf schemas in the OpenAPI specification

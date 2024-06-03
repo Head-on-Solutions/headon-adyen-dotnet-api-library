@@ -1,4 +1,4 @@
-﻿namespace Adyen.Service.Resource.Terminal
+﻿namespace HeadOn.Classic.Adyen.Service.Resource.Terminal
 {
     public class TerminalApiLocal: ServiceResource
     {

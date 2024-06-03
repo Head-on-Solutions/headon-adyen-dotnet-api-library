@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
-using Adyen.Model;
-using Adyen.Model.Hop;
-using Adyen.Service.Resource.Hop;
+using HeadOn.Classic.Adyen.Model;
+using HeadOn.Classic.Adyen.Model.Hop;
+using HeadOn.Classic.Adyen.Service.Resource.Hop;
 
-namespace Adyen.Service
+namespace HeadOn.Classic.Adyen.Service
 {
     public class HostedOnboardingPages : AbstractService
     {

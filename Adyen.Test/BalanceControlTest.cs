@@ -1,9 +1,9 @@
 using System;
-using Adyen.Model.BalanceControl;
-using Adyen.Service;
+using HeadOn.Classic.Adyen.Model.BalanceControl;
+using HeadOn.Classic.Adyen.Service;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class BalanceControlTest : BaseTest

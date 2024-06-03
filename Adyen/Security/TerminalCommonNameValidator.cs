@@ -1,7 +1,7 @@
 ﻿using System.Linq;
 using System.Text.RegularExpressions;
 
-namespace Adyen.Security
+namespace HeadOn.Classic.Adyen.Security
 {
     public static class TerminalCommonNameValidator
     {

@@ -1,4 +1,4 @@
-﻿namespace Adyen.Security
+﻿namespace HeadOn.Classic.Adyen.Security
 {
     internal class EncryptionDerivedKey
     {

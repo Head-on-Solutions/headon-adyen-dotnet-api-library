@@ -1,6 +1,6 @@
-﻿using Adyen.Constants;
+﻿using HeadOn.Classic.Adyen.Constants;
 
-namespace Adyen.Service.Resource.Fund
+namespace HeadOn.Classic.Adyen.Service.Resource.Fund
 {
     public class TransferFunds : Resource
     {

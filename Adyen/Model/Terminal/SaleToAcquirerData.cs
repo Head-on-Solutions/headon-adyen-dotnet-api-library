@@ -20,13 +20,13 @@
 //  * See the LICENSE file for more info.
 //  */
 #endregion
-using Adyen.Model.ApplicationInformation;
+using HeadOn.Classic.Adyen.Model.ApplicationInformation;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Text;
 
-namespace Adyen.Model.Terminal
+namespace HeadOn.Classic.Adyen.Model.Terminal
 {
     public class SaleToAcquirerData
     {

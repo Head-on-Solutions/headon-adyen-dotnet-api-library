@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web;
-using Adyen.Exceptions;
-using Environment = Adyen.Model.Environment;
+using HeadOn.Classic.Adyen.Exceptions;
+using Environment = HeadOn.Classic.Adyen.Model.Environment;
 
-namespace Adyen.Service
+namespace HeadOn.Classic.Adyen.Service
 {
     public class AbstractService
     {

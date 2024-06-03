@@ -21,7 +21,7 @@
 //  */
 #endregion
 
-namespace Adyen.Model
+namespace HeadOn.Classic.Adyen.Model
 {
     public enum Environment
     {

@@ -1,11 +1,11 @@
 ﻿using System;
 using System.Runtime.Serialization;
-using Adyen.Exceptions;
-using Adyen.Model.Nexo;
-using Adyen.Security;
+using HeadOn.Classic.Adyen.Exceptions;
+using HeadOn.Classic.Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Security;
 using Newtonsoft.Json.Linq;
 
-namespace Adyen.ApiSerialization
+namespace HeadOn.Classic.Adyen.ApiSerialization
 {
     internal class SaleToPoiMessageSecuredSerializer
     {

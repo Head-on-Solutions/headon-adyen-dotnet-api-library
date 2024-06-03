@@ -1,10 +1,10 @@
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Adyen.Model;
+using HeadOn.Classic.Adyen.Model;
 using Newtonsoft.Json;
 
-namespace Adyen.Service
+namespace HeadOn.Classic.Adyen.Service
 {
     public class ServiceResource
     {

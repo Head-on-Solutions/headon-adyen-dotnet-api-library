@@ -1,6 +1,6 @@
 using System;
 
-namespace Adyen.IntegrationTest
+namespace HeadOn.Classic.Adyen.IntegrationTest
 {
     public class ClientConstants
     {

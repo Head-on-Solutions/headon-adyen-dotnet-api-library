@@ -2,9 +2,9 @@ using System;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Adyen.Model;
+using HeadOn.Classic.Adyen.Model;
 
-namespace Adyen.HttpClient.Interfaces
+namespace HeadOn.Classic.Adyen.HttpClient.Interfaces
 {
     public interface IClient : IDisposable
     {

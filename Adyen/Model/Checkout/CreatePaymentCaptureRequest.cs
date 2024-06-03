@@ -23,9 +23,9 @@ using Newtonsoft.Json;
 using Newtonsoft.Json.Converters;
 using Newtonsoft.Json.Linq;
 using System.ComponentModel.DataAnnotations;
-using OpenAPIDateConverter = Adyen.ApiSerialization.OpenAPIDateConverter;
+using OpenAPIDateConverter = HeadOn.Classic.Adyen.ApiSerialization.OpenAPIDateConverter;
 
-namespace Adyen.Model.Checkout
+namespace HeadOn.Classic.Adyen.Model.Checkout
 {
     /// <summary>
     /// CreatePaymentCaptureRequest
@@ -45,7 +45,7 @@ namespace Adyen.Model.Checkout
         /// <param name="lineItems">Price and product information of the refunded items, required for [partial refunds](https://docs.adyen.com/online-payments/refund#refund-a-payment). &gt; This field is required for partial refunds with 3x 4x Oney, Affirm, Afterpay, Atome, Clearpay, Klarna, Ratepay, Walley, and Zip..</param>
         /// <param name="merchantAccount">The merchant account that is used to process the payment. (required).</param>
         /// <param name="reference">Your reference for the capture request. Maximum length: 80 characters..</param>
-        /// <param name="splits">An array of objects specifying how the amount should be split between accounts when using Adyen for Platforms. For details, refer to [Providing split information](https://docs.adyen.com/marketplaces-and-platforms/processing-payments#providing-split-information)..</param>
+        /// <param name="splits">An array of objects specifying how the amount should be split between accounts when using HeadOn.Classic.Adyen for Platforms. For details, refer to [Providing split information](https://docs.adyen.com/marketplaces-and-platforms/processing-payments#providing-split-information)..</param>
         public CreatePaymentCaptureRequest(Amount amount = default(Amount), List<LineItem> lineItems = default(List<LineItem>), string merchantAccount = default(string), string reference = default(string), List<Split> splits = default(List<Split>))
         {
             this.Amount = amount;
@@ -83,9 +83,9 @@ namespace Adyen.Model.Checkout
         public string Reference { get; set; }
 
         /// <summary>
-        /// An array of objects specifying how the amount should be split between accounts when using Adyen for Platforms. For details, refer to [Providing split information](https://docs.adyen.com/marketplaces-and-platforms/processing-payments#providing-split-information).
+        /// An array of objects specifying how the amount should be split between accounts when using HeadOn.Classic.Adyen for Platforms. For details, refer to [Providing split information](https://docs.adyen.com/marketplaces-and-platforms/processing-payments#providing-split-information).
         /// </summary>
-        /// <value>An array of objects specifying how the amount should be split between accounts when using Adyen for Platforms. For details, refer to [Providing split information](https://docs.adyen.com/marketplaces-and-platforms/processing-payments#providing-split-information).</value>
+        /// <value>An array of objects specifying how the amount should be split between accounts when using HeadOn.Classic.Adyen for Platforms. For details, refer to [Providing split information](https://docs.adyen.com/marketplaces-and-platforms/processing-payments#providing-split-information).</value>
         [DataMember(Name = "splits", EmitDefaultValue = false)]
         public List<Split> Splits { get; set; }
 

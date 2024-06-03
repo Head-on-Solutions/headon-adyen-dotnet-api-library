@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Text;
-using Adyen.Model.Nexo;
-using Adyen.Model.Nexo.Message;
-using Adyen.Security.Exceptions;
+using HeadOn.Classic.Adyen.Model.Nexo;
+using HeadOn.Classic.Adyen.Model.Nexo.Message;
+using HeadOn.Classic.Adyen.Security.Exceptions;
 
-namespace Adyen.Security
+namespace HeadOn.Classic.Adyen.Security
 {
     public class SaleToPoiMessageSecuredEncryptor
     {

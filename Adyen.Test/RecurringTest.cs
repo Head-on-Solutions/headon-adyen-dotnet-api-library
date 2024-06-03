@@ -1,8 +1,8 @@
 ﻿using System.Threading.Tasks;
-using Adyen.Model.Recurring;
+using HeadOn.Classic.Adyen.Model.Recurring;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class RecurringTest : BaseTest

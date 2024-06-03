@@ -1,7 +1,7 @@
 using System.Threading.Tasks;
-using Adyen.Model;
+using HeadOn.Classic.Adyen.Model;
 
-namespace Adyen.Service.Resource
+namespace HeadOn.Classic.Adyen.Service.Resource
 {
     public class Resource
     {

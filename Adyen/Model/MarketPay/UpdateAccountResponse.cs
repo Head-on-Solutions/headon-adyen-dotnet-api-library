@@ -5,10 +5,10 @@ using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
 using System.Text;
-using Adyen.Util;
+using HeadOn.Classic.Adyen.Util;
 using Newtonsoft.Json;
 
-namespace Adyen.Model.MarketPay
+namespace HeadOn.Classic.Adyen.Model.MarketPay
 {
     /// <summary>
     /// UpdateAccountResponse

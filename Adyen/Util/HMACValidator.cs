@@ -2,9 +2,9 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using System.Text;
-using Adyen.Model.Notification;
+using HeadOn.Classic.Adyen.Model.Notification;
 
-namespace Adyen.Util
+namespace HeadOn.Classic.Adyen.Util
 {
     public class HmacValidator
     {

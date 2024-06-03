@@ -1,9 +1,9 @@
 ﻿using System.Threading.Tasks;
-using Adyen.Model.MarketPay;
-using Adyen.Service.Resource.Account;
+using HeadOn.Classic.Adyen.Model.MarketPay;
+using HeadOn.Classic.Adyen.Service.Resource.Account;
 using Newtonsoft.Json;
 
-namespace Adyen.Service
+namespace HeadOn.Classic.Adyen.Service
 {
     public class Account : AbstractService
     {

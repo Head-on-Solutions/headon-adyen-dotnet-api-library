@@ -1,9 +1,9 @@
 ﻿using System.Collections.Generic;
-using Adyen.Model.MarketPay;
-using Adyen.Service;
+using HeadOn.Classic.Adyen.Model.MarketPay;
+using HeadOn.Classic.Adyen.Service;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test.MarketPayTest
+namespace HeadOn.Classic.Adyen.Test.MarketPayTest
 {
     [TestClass]
     public class MarketPayFundTest : BaseTest

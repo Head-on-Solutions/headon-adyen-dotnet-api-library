@@ -1,8 +1,8 @@
-﻿using Adyen.ApiSerialization;
-using Adyen.Security;
+﻿using HeadOn.Classic.Adyen.ApiSerialization;
+using HeadOn.Classic.Adyen.Security;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class TerminalApiPosSecurityTest : BaseTest

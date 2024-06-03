@@ -1,10 +1,10 @@
 ﻿using System.Threading.Tasks;
-using Adyen.Model;
-using Adyen.Model.Hop;
-using Adyen.Service;
+using HeadOn.Classic.Adyen.Model;
+using HeadOn.Classic.Adyen.Model.Hop;
+using HeadOn.Classic.Adyen.Service;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class HostedOnboardingPagesTest : BaseTest

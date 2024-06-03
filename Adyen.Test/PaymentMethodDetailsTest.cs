@@ -1,7 +1,7 @@
-﻿using Adyen.Model.Checkout;
+﻿using HeadOn.Classic.Adyen.Model.Checkout;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class PaymentMethodDetailsTest

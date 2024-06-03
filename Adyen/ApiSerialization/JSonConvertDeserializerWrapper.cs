@@ -1,8 +1,8 @@
-﻿using Adyen.Exceptions;
+﻿using HeadOn.Classic.Adyen.Exceptions;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 
-namespace Adyen.ApiSerialization
+namespace HeadOn.Classic.Adyen.ApiSerialization
 {
     internal class JsonConvertDeserializerWrapper<T>
     {

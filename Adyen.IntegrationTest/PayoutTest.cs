@@ -1,12 +1,12 @@
 using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
-using Adyen.Service;
-using Adyen.Model.Payout;
-using Adyen.Model;
-using Adyen.HttpClient;
-using Adyen.Service.Payout;
+using HeadOn.Classic.Adyen.Service;
+using HeadOn.Classic.Adyen.Model.Payout;
+using HeadOn.Classic.Adyen.Model;
+using HeadOn.Classic.Adyen.HttpClient;
+using HeadOn.Classic.Adyen.Service.Payout;
 
-namespace Adyen.IntegrationTest
+namespace HeadOn.Classic.Adyen.IntegrationTest
 {
     [TestClass]
     public class PayoutTest : BaseTest

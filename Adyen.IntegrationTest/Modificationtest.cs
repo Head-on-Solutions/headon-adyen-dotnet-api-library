@@ -1,10 +1,10 @@
 using System.Net.Http;
-using Adyen.HttpClient;
-using Adyen.Model.Payment;
-using Adyen.Service;
+using HeadOn.Classic.Adyen.HttpClient;
+using HeadOn.Classic.Adyen.Model.Payment;
+using HeadOn.Classic.Adyen.Service;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.IntegrationTest
+namespace HeadOn.Classic.Adyen.IntegrationTest
 {
     [TestClass]
     public class ModificationTest : BaseTest

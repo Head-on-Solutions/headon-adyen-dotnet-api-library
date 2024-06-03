@@ -23,7 +23,7 @@
 
 using System.Collections.Generic;
 
-namespace Adyen.Model
+namespace HeadOn.Classic.Adyen.Model
 {
     public class RequestOptions
     {

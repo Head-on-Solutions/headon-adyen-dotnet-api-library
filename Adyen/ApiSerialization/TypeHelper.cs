@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Adyen.ApiSerialization
+namespace HeadOn.Classic.Adyen.ApiSerialization
 {
     internal static class TypeHelper
     {

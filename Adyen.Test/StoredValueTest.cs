@@ -1,8 +1,8 @@
-using Adyen.Model.StoredValue;
-using Adyen.Service;
+using HeadOn.Classic.Adyen.Model.StoredValue;
+using HeadOn.Classic.Adyen.Service;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Adyen.Test
+namespace HeadOn.Classic.Adyen.Test
 {
     [TestClass]
     public class StoredValueTest : BaseTest

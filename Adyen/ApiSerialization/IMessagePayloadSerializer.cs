@@ -1,4 +1,4 @@
-﻿namespace Adyen.ApiSerialization
+﻿namespace HeadOn.Classic.Adyen.ApiSerialization
 {
     internal interface IMessagePayloadSerializer<out T> where T : IMessagePayload
     {

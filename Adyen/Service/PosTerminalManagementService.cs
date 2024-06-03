@@ -15,12 +15,12 @@ using System.Collections.Generic;
 using System.Net.Http;
 using System.Threading;
 using System.Threading.Tasks;
-using Adyen.Constants;
-using Adyen.Model;
-using Adyen.Service.Resource;
-using Adyen.Model.PosTerminalManagement;
+using HeadOn.Classic.Adyen.Constants;
+using HeadOn.Classic.Adyen.Model;
+using HeadOn.Classic.Adyen.Service.Resource;
+using HeadOn.Classic.Adyen.Model.PosTerminalManagement;
 
-namespace Adyen.Service
+namespace HeadOn.Classic.Adyen.Service
 {
     /// <summary>
     /// DefaultService Interface
